@@ -8,5 +8,8 @@
 import UIKit
 
 class Another: NSObject {
-
+ 
+    func test() {
+        Alamofire.request("")
+    }
 }

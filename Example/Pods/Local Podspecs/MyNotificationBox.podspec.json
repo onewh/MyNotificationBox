@@ -1,8 +1,8 @@
 {
   "name": "MyNotificationBox",
-  "version": "0.1.0",
-  "summary": "A short description of MyNotificationBox.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "A place for convenient Notification helper classes.",
+  "description": "A place for convenient Notification helper classes. LOL",
   "homepage": "https://github.com/onewh/MyNotificationBox",
   "license": {
     "type": "MIT",
@@ -13,10 +13,17 @@
   },
   "source": {
     "git": "https://github.com/onewh/MyNotificationBox.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MyNotificationBox/Classes/**/*"
+  "swift_versions": "4.0",
+  "source_files": "MyNotificationBox/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
+  "swift_version": "4.0"
 }
