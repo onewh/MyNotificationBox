@@ -1,0 +1,6 @@
+framework module MyNotificationBox {
+  umbrella header "MyNotificationBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

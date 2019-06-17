@@ -1,0 +1,43 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MyNotificationBox (0.1.0)
+  - Nimble (7.0.3)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - MyNotificationBox (from `../`)
+  - Nimble (~> 7.0.2)
+  - Nimble-Snapshots (~> 6.3.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+
+EXTERNAL SOURCES:
+  MyNotificationBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MyNotificationBox: 0f132d230fcc809b79789b8c9d29df37dbf394cb
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 905f43db9934e1daa0fed3c676b54c5ea65a4daa
+
+COCOAPODS: 1.7.2
